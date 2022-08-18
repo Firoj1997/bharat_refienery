@@ -1,0 +1,25 @@
+credentials:
+  usernames:
+    operation:
+      email: operation@bhref.com
+      name: Operation
+      password: $2b$12$TAdOA7nbe/g6iPhvNcv9BuTmymHlU4o/WZDShSbav1p.tBSwnsMje # To be replaced with hashed password
+    logistic:
+      email: logistic@bhref.com
+      name: Logistic
+      password: $2b$12$zexvEHvm.RTNvRzvcABUZ.WKxRlMCoVLO5lAIBubASo2mzI/rMLCW # To be replaced with hashed password
+    bhwh01:
+      email: bhwh01@bhref.com
+      name: BHWH01
+      password: $2b$12$zexvEHvm.RTNvRzvcABUZ.WKxRlMCoVLO5lAIBubASo2mzI/rMLCW # To be replaced with hashed password
+    bhwh02:
+      email: bhwh02@bhref.com
+      name: BHWH02
+      password: $2b$12$zexvEHvm.RTNvRzvcABUZ.WKxRlMCoVLO5lAIBubASo2mzI/rMLCW # To be replaced with hashed password
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+preauthorized:
+  emails:
+  - enquiry@bhref.com
