@@ -414,15 +414,15 @@ elif choose == "Dashboard":
         view_image = run_query('3_Wastage_&_Loss Control')
         st.image(view_image, width=800)
 
-        view_image = run_query('4_Warehouse_Operation_Dashboard')
+        view_image = run_query('2_Warehouse_Operation_Dashboard')
         st.image(view_image, width=800)
 
     if(st.session_state.username=='logistic'):
-        view_image = run_query('2_Transport')
+        view_image = run_query('4_Transport')
         st.image(view_image, width=800)
     
     if(st.session_state.username=='bhwh01'):
-        view_image = run_query('4_Warehouse_Operation_Dashboard')
+        view_image = run_query('2_Warehouse_Operation_Dashboard')
         st.image(view_image, width=800)
     
 
